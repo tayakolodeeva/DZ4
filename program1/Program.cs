@@ -1,9 +1,8 @@
 ﻿// Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B. Решить задачу с использованием методов
 int DegreeOfNumber (int num1, int num2)
-
 {
 int degree = num1;  
- for (int i = 1; i < num2; i++ )
+for (int i = 1; i < num2; i++ )
 {
 degree = (degree * num1);
 }
